@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Models (large files — use Git LFS or upload separately)
+models/*.pkl
+
+# Data (large files — use Git LFS or store on S3/GDrive)
+# data/*.csv   # Uncomment to ignore CSV files
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs (optional — commit if you want to share plots)
+# outputs/
